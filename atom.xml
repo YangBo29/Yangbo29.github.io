@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-14T09:15:33.452Z</updated>
+  <updated>2018-03-14T14:06:49.118Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,25 +17,52 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试文章</title>
-    <link href="http://yoursite.com/2018/03/14/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2018/03/14/我的博客/</id>
-    <published>2018-03-14T04:02:28.044Z</published>
-    <updated>2018-03-14T09:15:33.452Z</updated>
+    <title>react 声明周期</title>
+    <link href="http://yoursite.com/2018/03/14/reactLifeCycle/"/>
+    <id>http://yoursite.com/2018/03/14/reactLifeCycle/</id>
+    <published>2018-03-14T12:51:51.282Z</published>
+    <updated>2018-03-14T14:06:49.118Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Wed Mar 14 2018 18:31:36 GMT+0800 (中国标准时间) --><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 15 2018 11:10:46 GMT+0800 (中国标准时间) --><h2 id="react-的声明周期"><a href="#react-的声明周期" class="headerlink" title="react 的声明周期"></a>react 的声明周期</h2><p>先上一张图，我们会根据这张图来分析</p><p><img src="http://ww1.sinaimg.cn/large/e315dd2ely1fpcn2xuccbj21280huglz.jpg" alt=""></p><p>react的声明周期其实是可以分为两大类的，第一种是组件第一次创建后只执行一次的，第二种是会随着数据的操作而触发；那就让我们烦别来看看他们在react的一个组件组件中所充当的角色</p><h3 id="一、getDefaultProps"><a href="#一、getDefaultProps" class="headerlink" title="一、getDefaultProps"></a>一、getDefaultProps</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">import React from <span class="string">'react'</span>; *以后的代码省略这行代码了</span><br><span class="line">import PropTypes from <span class="string">'prop-types'</span>;</span><br><span class="line"></span><br><span class="line">class Component extends React.Component&#123;</span><br><span class="line">  static defaultProps = &#123;</span><br><span class="line">      name: <span class="string">'stranger'</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="title">render</span></span>() &#123;</span><br><span class="line">      <span class="built_in">return</span> (</span><br><span class="line">        &lt;div&gt;Hello, &#123;this.props.name&#125;&lt;/div&gt;</span><br><span class="line">      )</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>当组件实例化的时候会执行defaultProps这个函数，作用是设置组件所需参数的默认值、也可以配合prop-types这个包来进行参数验证<a href="https://reactjs.org/docs/typechecking-with-proptypes.html" target="_blank" rel="noopener">prop-types</a></p><h3 id="二、getInitialState"><a href="#二、getInitialState" class="headerlink" title="二、getInitialState"></a>二、getInitialState</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">class Component extends React.Component&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span></span>()&#123;</span><br><span class="line">    this.state = &#123;</span><br><span class="line">      render: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Mar 14 2018 18:31:36 GMT+0800 (中国标准时间) --&gt;&lt;!-- rebuild by neat --&gt;
+        &lt;!-- build time:Thu Mar 15 2018 11:10:46 GMT+0800 (中国标准时间) --&gt;&lt;h2 id=&quot;react-的声明周期&quot;&gt;&lt;a href=&quot;#react-的声明周期&quot; class=&quot;headerlink&quot; title=&quot;react 的声
       
     
     </summary>
     
+      <category term="前端框架" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
     
-      <category term="测试属性" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95%E5%B1%9E%E6%80%A7/"/>
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>react 基础篇（一）</title>
+    <link href="http://yoursite.com/2018/03/14/reactBase1/"/>
+    <id>http://yoursite.com/2018/03/14/reactBase1/</id>
+    <published>2018-03-14T12:10:53.348Z</published>
+    <updated>2018-03-14T12:49:14.586Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 15 2018 11:10:46 GMT+0800 (中国标准时间) --><h2 id="react-安装"><a href="#react-安装" class="headerlink" title="react 安装"></a>react 安装</h2><p>对于入门的人来说，是从无到有的过程，首先我们要先了解一下如何使用框架<br>1、首先要安装node.js 在<a href="http://nodejs.cn/" target="_blank" rel="noopener">Node</a>下载，node的版本会影响你可用的功能和一些语法支持，所以尽量使用高版本的node<br>2、node会自带npm包管理器，<a href="https://www.npmjs.com/" target="_blank" rel="noopener">Npm</a>，使用npm的指令来安装react项目中需要用到的组件，插件，翻译官(babel)等,如果下载缓慢的话可以采用taobao镜像，也可以使用yarn来安装，速度会快一些。<br>3、创建一个新的文件夹，在这个文件夹中调用命令窗口（Shift+右键）， 输入指令 npm init 初始化项目；<br>如果想使用yarn 首先要通过 npm install yarn -g 来安装 之后就科一是用yarn的语法了</p><p>4、安装react：npm install react react-dom / yarn add react react-dom 两者效果是等同的</p><p>在react项目中还需要很多辅助插件：<br>babel 这个翻译官 是在框架项目中必备的，它可以将项目中的es2015(es6)-es2017(es8)的语法转换成现在所有浏览器支持程度最高的es5语法；【注意】：像Set、Map这种是不会被翻译的。</p><p>babel 的核心包 babel-core 和相关依赖 babel-preset-stage-0 babel-preset-react babel-loader babel-preset-es2015 –save-dev 都是会被用到的, –save-dev 是将安装这些依赖包安装在开发环境中</p><p>那什么是开发环境呢？<br>在现在流行的框架开发中，有开发环境和生产环境，所谓的开发环境就是项目在开发过程中所依赖的环境；生产环境就是上线之后，项目面对用户的真实环境</p><p>完成以上操作其实你就已经开启了你的react之旅了</p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Thu Mar 15 2018 11:10:46 GMT+0800 (中国标准时间) --&gt;&lt;h2 id=&quot;react-安装&quot;&gt;&lt;a href=&quot;#react-安装&quot; class=&quot;headerlink&quot; title=&quot;react 安装&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+      <category term="前端框架" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="react" scheme="http://yoursite.com/tags/react/"/>
     
   </entry>
   
@@ -46,13 +73,13 @@
     <published>2018-03-14T03:32:29.915Z</published>
     <updated>2018-03-14T03:32:29.915Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Wed Mar 14 2018 18:31:36 GMT+0800 (中国标准时间) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 15 2018 11:10:46 GMT+0800 (中国标准时间) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Mar 14 2018 18:31:36 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/
+        &lt;!-- build time:Thu Mar 15 2018 11:10:46 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/
       
     
     </summary>

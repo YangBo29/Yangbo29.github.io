@@ -4,17 +4,40 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/14/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-03-14T09:15:33.452Z</lastmod>
+    <loc>http://yoursite.com/2018/03/14/reactLifeCycle/</loc>
+    <lastmod>2018-03-14T14:06:49.118Z</lastmod>
     <data>
         <display>
-        <title>测试文章</title>
-        <pubTime>2018-03-14T04:02:28.044Z</pubTime>
+        <title>react 声明周期</title>
+        <pubTime>2018-03-14T12:51:51.282Z</pubTime>
         
-        <tag>测试属性</tag>
+        <tag>react</tag>
          
          
            
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/03/14/reactBase1/</loc>
+    <lastmod>2018-03-14T12:49:14.586Z</lastmod>
+    <data>
+        <display>
+        <title>react 基础篇（一）</title>
+        <pubTime>2018-03-14T12:10:53.348Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
         </display>
     </data>
     </url>
