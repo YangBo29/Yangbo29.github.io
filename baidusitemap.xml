@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/14/reactLifeCycle/</loc>
-    <lastmod>2018-03-15T07:04:38.831Z</lastmod>
+    <loc>http://yoursite.com/2018/03/16/reactBase3/</loc>
+    <lastmod>2018-03-16T07:18:35.231Z</lastmod>
     <data>
         <display>
-        <title>react 声明周期</title>
-        <pubTime>2018-03-14T12:51:51.282Z</pubTime>
+        <title>react 基础篇（三）</title>
+        <pubTime>2018-03-16T02:47:05.659Z</pubTime>
         
         <tag>react</tag>
          
@@ -25,11 +25,51 @@
     
   <url>
     <loc>http://yoursite.com/2018/03/14/reactBase1/</loc>
-    <lastmod>2018-03-14T12:49:14.586Z</lastmod>
+    <lastmod>2018-03-16T06:33:26.650Z</lastmod>
     <data>
         <display>
         <title>react 基础篇（一）</title>
         <pubTime>2018-03-14T12:10:53.348Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/03/15/reactBase2/</loc>
+    <lastmod>2018-03-15T16:15:52.404Z</lastmod>
+    <data>
+        <display>
+        <title>react 基础篇（二）</title>
+        <pubTime>2018-03-15T12:06:02.222Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/03/14/reactLifeCycle/</loc>
+    <lastmod>2018-03-15T07:04:38.831Z</lastmod>
+    <data>
+        <display>
+        <title>react 声明周期</title>
+        <pubTime>2018-03-14T12:51:51.282Z</pubTime>
         
         <tag>react</tag>
          
