@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/03/16/reactBase3/</loc>
-    <lastmod>2018-03-16T07:18:35.231Z</lastmod>
+    <lastmod>2018-03-16T09:35:52.610Z</lastmod>
     <data>
         <display>
         <title>react 基础篇（三）</title>
@@ -24,8 +24,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/03/15/reactBase2/</loc>
+    <lastmod>2018-03-16T09:34:28.191Z</lastmod>
+    <data>
+        <display>
+        <title>react 基础篇（二）</title>
+        <pubTime>2018-03-15T12:06:02.222Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/03/14/reactBase1/</loc>
-    <lastmod>2018-03-16T06:33:26.650Z</lastmod>
+    <lastmod>2018-03-16T09:33:48.801Z</lastmod>
     <data>
         <display>
         <title>react 基础篇（一）</title>
@@ -44,19 +64,39 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/15/reactBase2/</loc>
-    <lastmod>2018-03-15T16:15:52.404Z</lastmod>
+    <loc>http://yoursite.com/2018/03/16/ajax/</loc>
+    <lastmod>2018-03-16T09:32:56.391Z</lastmod>
     <data>
         <display>
-        <title>react 基础篇（二）</title>
-        <pubTime>2018-03-15T12:06:02.222Z</pubTime>
+        <title>javascript Ajax</title>
+        <pubTime>2018-03-16T08:52:57.003Z</pubTime>
         
-        <tag>react</tag>
+        <tag>js</tag>
          
          
            
              
-              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+              <breadCrumb title="原生js" url="http://yoursite.com/categories/%E5%8E%9F%E7%94%9Fjs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/03/16/jsCommonFn/</loc>
+    <lastmod>2018-03-16T08:49:50.667Z</lastmod>
+    <data>
+        <display>
+        <title>javascript Utils</title>
+        <pubTime>2018-03-16T08:12:11.323Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="原生js" url="http://yoursite.com/categories/%E5%8E%9F%E7%94%9Fjs/"/>
           
         </display>
     </data>
