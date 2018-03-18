@@ -4,19 +4,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/16/reactBase3/</loc>
-    <lastmod>2018-03-16T09:35:52.610Z</lastmod>
+    <loc>http://yoursite.com/2018/03/17/prototype/</loc>
+    <lastmod>2018-03-18T11:20:25.145Z</lastmod>
     <data>
         <display>
-        <title>react 基础篇（三）</title>
-        <pubTime>2018-03-16T02:47:05.659Z</pubTime>
+        <title>javascript Prototype</title>
+        <pubTime>2018-03-17T10:03:58.014Z</pubTime>
         
-        <tag>react</tag>
+        <tag>js</tag>
          
          
            
              
-              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+              <breadCrumb title="原生js" url="http://yoursite.com/categories/%E5%8E%9F%E7%94%9Fjs/"/>
           
         </display>
     </data>
@@ -24,52 +24,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/15/reactBase2/</loc>
-    <lastmod>2018-03-16T09:34:28.191Z</lastmod>
-    <data>
-        <display>
-        <title>react 基础篇（二）</title>
-        <pubTime>2018-03-15T12:06:02.222Z</pubTime>
-        
-        <tag>react</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/03/14/reactBase1/</loc>
-    <lastmod>2018-03-16T09:33:48.801Z</lastmod>
-    <data>
-        <display>
-        <title>react 基础篇（一）</title>
-        <pubTime>2018-03-14T12:10:53.348Z</pubTime>
-        
-        <tag>react</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/03/16/ajax/</loc>
-    <lastmod>2018-03-16T09:32:56.391Z</lastmod>
+    <loc>http://yoursite.com/2017/05/07/ajax/</loc>
+    <lastmod>2018-03-18T11:18:44.130Z</lastmod>
     <data>
         <display>
         <title>javascript Ajax</title>
-        <pubTime>2018-03-16T08:52:57.003Z</pubTime>
+        <pubTime>2017-05-06T16:00:00.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -84,12 +44,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/16/jsCommonFn/</loc>
-    <lastmod>2018-03-16T08:49:50.667Z</lastmod>
+    <loc>http://yoursite.com/2017/05/06/jsCommonFn/</loc>
+    <lastmod>2018-03-18T11:18:44.120Z</lastmod>
     <data>
         <display>
         <title>javascript Utils</title>
-        <pubTime>2018-03-16T08:12:11.323Z</pubTime>
+        <pubTime>2017-05-05T16:00:00.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -104,12 +64,72 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/14/reactLifeCycle/</loc>
-    <lastmod>2018-03-15T07:04:38.831Z</lastmod>
+    <loc>http://yoursite.com/2017/07/02/reactLifeCycle/</loc>
+    <lastmod>2018-03-18T11:16:24.612Z</lastmod>
     <data>
         <display>
         <title>react 声明周期</title>
-        <pubTime>2018-03-14T12:51:51.282Z</pubTime>
+        <pubTime>2017-07-01T16:00:00.000Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/06/25/reactBase3/</loc>
+    <lastmod>2018-03-18T11:15:53.165Z</lastmod>
+    <data>
+        <display>
+        <title>react 基础篇（三）</title>
+        <pubTime>2017-06-24T16:00:00.000Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/06/18/reactBase2/</loc>
+    <lastmod>2018-03-18T11:15:25.699Z</lastmod>
+    <data>
+        <display>
+        <title>react 基础篇（二）</title>
+        <pubTime>2017-06-17T16:00:00.000Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端框架" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/06/11/reactBase1/</loc>
+    <lastmod>2018-03-18T11:14:37.145Z</lastmod>
+    <data>
+        <display>
+        <title>react 基础篇（一）</title>
+        <pubTime>2017-06-10T16:00:00.000Z</pubTime>
         
         <tag>react</tag>
          
