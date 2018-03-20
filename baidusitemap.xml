@@ -4,12 +4,52 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/03/17/prototype/</loc>
-    <lastmod>2018-03-18T11:20:25.145Z</lastmod>
+    <loc>http://yoursite.com/2017/07/30/scope/</loc>
+    <lastmod>2018-03-20T12:11:13.743Z</lastmod>
+    <data>
+        <display>
+        <title>javascript scope</title>
+        <pubTime>2017-07-29T16:00:00.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="原生js" url="http://yoursite.com/categories/%E5%8E%9F%E7%94%9Fjs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/08/12/react-router-dom/</loc>
+    <lastmod>2018-03-20T12:08:57.915Z</lastmod>
+    <data>
+        <display>
+        <title>javascript react-router-dom</title>
+        <pubTime>2017-08-11T16:00:00.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="原生js" url="http://yoursite.com/categories/%E5%8E%9F%E7%94%9Fjs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/07/15/prototype/</loc>
+    <lastmod>2018-03-20T12:07:41.713Z</lastmod>
     <data>
         <display>
         <title>javascript Prototype</title>
-        <pubTime>2018-03-17T10:03:58.014Z</pubTime>
+        <pubTime>2017-07-14T16:00:00.000Z</pubTime>
         
         <tag>js</tag>
          

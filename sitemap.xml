@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/03/17/prototype/</loc>
+    <loc>http://yoursite.com/2017/07/30/scope/</loc>
     
-    <lastmod>2018-03-18T11:20:25.145Z</lastmod>
+    <lastmod>2018-03-20T12:11:13.743Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/08/12/react-router-dom/</loc>
+    
+    <lastmod>2018-03-20T12:08:57.915Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/07/15/prototype/</loc>
+    
+    <lastmod>2018-03-20T12:07:41.713Z</lastmod>
     
   </url>
   
