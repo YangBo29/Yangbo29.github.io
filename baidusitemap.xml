@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/06/17/gulp/</loc>
+    <lastmod>2018-07-17T08:41:30.386Z</lastmod>
+    <data>
+        <display>
+        <title>gulp</title>
+        <pubTime>2018-06-16T16:00:00.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="gulp" url="http://yoursite.com/categories/gulp/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/07/17/ant%20Design%20(1)/</loc>
+    <lastmod>2018-07-17T08:41:30.370Z</lastmod>
+    <data>
+        <display>
+        <title>ant Design（1）</title>
+        <pubTime>2018-07-16T16:00:00.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="ant Design" url="http://yoursite.com/categories/ant-Design/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/07/07/jQuery.cropper/</loc>
+    <lastmod>2018-07-17T08:40:18.825Z</lastmod>
+    <data>
+        <display>
+        <title>jQuery.cropper 插件</title>
+        <pubTime>2018-07-06T16:00:00.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="cropper" url="http://yoursite.com/categories/cropper/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/11/26/regExp/</loc>
     <lastmod>2018-03-23T10:24:08.721Z</lastmod>
     <data>
